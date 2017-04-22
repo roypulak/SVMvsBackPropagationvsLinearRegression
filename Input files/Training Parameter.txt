@@ -1,0 +1,17 @@
+SVM commands on libSVM library
+
+//ring merged
+svm-train.exe -c 1000 -t 2 -g 3 ring-merged.train
+svm-predict.exe ring-tests.test ring-merged.train.model ring-merged.out
+
+
+//ring separable
+svm-train.exe -c 1000 -t 2 -g 3 ring-separable.train
+svm-predict.exe ring-tests.test ring-separable.train.model ring-separable.out
+
+---------------------------------------------
+Back-propagation
+For both ring-seperable and ring-merge
+Number of Hidden layer: 2
+Number of Node per hidden layer: 13, 5
+Number of epoch: 10000000 
