@@ -13,3 +13,5 @@ Objective: Compare the classification results with the following algorithms:
 Support Vector Machines (SVM)
 Back-Propagation (BP)
 Multiple Linear Regression (MLR)
+
+Detail of the experiment is explained in Report_Prac2.pdf.
